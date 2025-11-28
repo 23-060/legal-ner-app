@@ -23,8 +23,8 @@ Menggunakan model **XLM-RoBERTa Large** fine-tune bahasa Indonesia (akurasi ~88%
 
 ### Clone / Download proyek ini
 ```bash
-git clone https://github.com/nama-kamu/legal-entity-recognition-indonesia.git
-cd legal-entity-recognition-indonesia
+git clone https://github.com/23-060/legal-ner-app
+cd legal-ner-app
 python -m venv venv
 
 ```
