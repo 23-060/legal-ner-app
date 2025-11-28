@@ -27,27 +27,29 @@ git clone https://github.com/nama-kamu/legal-entity-recognition-indonesia.git
 cd legal-entity-recognition-indonesia
 python -m venv venv
 
+```
 
+### Buat virtual environment (wajib!)
+```bash
 # Windows
 venv\Scripts\activate
 
 # macOS / Linux
 source venv/bin/activate
+```
 
-#cara run backend
+### Run Backend nya
+```bash
 pip install -r requirements.txt
 python backend/app.py
 ```
-[INFO] Loading cahya/xlm-roberta-large-indonesian-NER ...
-[SUCCESS] Model xlmr loaded!
- * Running on http://0.0.0.0:5000
 
-Buka aplikasi di browser
+### Buka aplikasi di browser untuk Frontend nya
 Cukup dobel-klik file ini : frontend/index.html
 atau buka manual: http://127.0.0.1:5000 (kalau pakai Live Server VS Code juga bisa)
 
 
-#### Cara menggunakan 
+#### Cara menggunakan Aplikasi
 
 Pilih file PDF putusan pengadilan
 Pilih model (rekomendasi: XLM-RoBERTa Large)
